@@ -24,6 +24,7 @@ public class Ventana extends javax.swing.JFrame implements ActionListener {
         if(temp2.estaMinado())
         {
             javax.swing.JOptionPane.showMessageDialog(this, "Perdiste, seleccionaste una mina.");
+            this.contador=0;
         }
         else
         {
